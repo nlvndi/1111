@@ -13,3 +13,19 @@ h3 {
 h4 {
     font-size: 25px;
 }
+.colorlavender {
+    color:rgb(148, 107, 60);
+}
+#coloraliceblue a
+{
+    color: rgb(82, 61, 40);
+}
+a{
+    color: green;
+}
+.link1 {
+color: blue;
+}
+.link2 {
+    color: rgb(255, 123, 0);
+    }
