@@ -51,6 +51,18 @@ body {
     background-color:  #3f2aff;
 }
 
+.link1 {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 49px;
+    padding-right: 49px;
+    margin-right: 0px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color:  #3f2aff;
+}
+
 .link1:last-child {
     margin-right: 0px;
 }
