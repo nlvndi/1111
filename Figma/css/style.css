@@ -245,7 +245,7 @@ html {
     display: block; 
     margin-bottom: 25px; 
     padding-left: 50px; 
-    background-image: url(../img/Arrow.png); 
+    background-image: url(../img/back.png); 
     background-position: left center; 
     background-repeat: no-repeat; 
     color: #3f2aff; 
@@ -282,19 +282,19 @@ html {
    } 
     
    .li-img1 { 
-    background-image: url(../img/block1.png); 
+    background-image: url(../img/block1.jpg); 
    } 
     
    .li-img2 { 
-    background-image: url(../img/block2.png); 
+    background-image: url(../img/block2.jpg); 
    } 
     
    .li-img3 { 
-    background-image: url(../img/block3.png); 
+    background-image: url(../img/block3.jpg); 
    } 
     
    .li-img4 { 
-    background-image: url(../img/block4.png); 
+    background-image: url(../img/block4.jpg); 
    } 
     
    .modules-ul-block { 
