@@ -202,9 +202,7 @@ html {
     font-size: 20px; 
    } 
     
-   /*СТИЛИ ДЛЯ MODULES*/ 
-    
-   .modules-content { 
+   .moduleess { 
     display: flex; 
     flex-wrap: wrap; 
     flex-direction: column; 
@@ -216,21 +214,21 @@ html {
     
    } 
     
-   .test1 { 
+   .main-class { 
     position: relative; 
     text-align: left; 
    } 
     
-   .modules-header { 
+   .headmod { 
     padding-top: 50px; 
    } 
     
-   .logo-modules { 
+   .log-mod { 
     margin-bottom: 25px;
     width: 137px; 
    } 
     
-   .modules-h1 { 
+   .h1-mod { 
     margin: 0; 
     margin-bottom: 50px; 
     font-family: 'Arial'; 
@@ -240,22 +238,17 @@ html {
     line-height: 69px; 
     color: #3F2AFF; 
    } 
-    
-   .back { 
-    display: block; 
-    margin-bottom: 25px; 
-    padding-left: 50px; 
-    background-image: url(../img/back.png); 
-    background-position: left center; 
-    background-repeat: no-repeat; 
-    color: #3f2aff; 
-    font-family: Arial, Helvetica, sans-serif; 
-    font-weight: 400; 
-    font-size: 20px; 
-    line-height: 23px; 
+
+   .h2mod { 
+    font-family: 'Arial'; 
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 40px; 
+    line-height: 46px; 
+    color: #3F2AFF; 
    } 
     
-   .modules-ul { 
+   .ul-mod { 
     list-style-type: none; 
     width: 1169px; 
     margin-bottom: 50px; 
@@ -276,40 +269,45 @@ html {
     background-position: top center; 
     background-repeat: no-repeat; 
    } 
-    
+
+   .back { 
+    display: block; 
+    margin-bottom: 25px; 
+    padding-left: 50px; 
+    background-image: url(../img/back.png); 
+    background-position: left center; 
+    background-repeat: no-repeat; 
+    color: #3f2aff; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 23px; 
+   } 
+
    .modules-li:nth-child(2n) { 
     margin-right: 0px; 
    } 
     
-   .li-img1 { 
+   .backgro1 { 
     background-image: url(../img/block1.jpg); 
    } 
     
-   .li-img2 { 
+   .backgro2 { 
     background-image: url(../img/block2.jpg); 
    } 
     
-   .li-img3 { 
+   .backgro3 { 
     background-image: url(../img/block3.jpg); 
    } 
     
-   .li-img4 { 
+   .backgro4 { 
     background-image: url(../img/block4.jpg); 
    } 
     
    .modules-ul-block { 
     list-style-type: none; 
    } 
-    
-   .modules-h2 { 
-    font-family: 'Arial'; 
-    font-style: normal; 
-    font-weight: 700; 
-    font-size: 40px; 
-    line-height: 46px; 
-    color: #3F2AFF; 
-   } 
-    
+ 
    .modules-li-block { 
     font-family: 'Arial'; 
     font-style: normal; 
@@ -317,22 +315,6 @@ html {
     font-size: 20px; 
     line-height: 165%; 
     color: #333333; 
-   } 
-    
-   .modules-number { 
-    position: absolute; 
-    right: 25px; 
-    bottom: 25px; 
-    font-family: 'Arial'; 
-    font-style: normal; 
-    font-weight: 400; 
-    font-size: 40px; 
-    line-height: 46px; 
-    /* identical to box height */ 
-    
-    text-align: right; 
-    
-    color: #EAEAEA; 
    } 
     
    .modules-button { 
@@ -347,13 +329,20 @@ html {
     line-height: 21px; 
     cursor: pointer; 
    } 
+
+   .nummod{ 
+    position: absolute; 
+    right: 25px; 
+    bottom: 25px; 
+    font-family: 'Arial'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 40px; 
+    line-height: 46px;    
+    text-align: right;  
+    color: #EAEAEA; 
+   } 
     
    .modules-button:hover { 
     background-color: #f3f3f3; 
    }
-.zxc {
-    margin: 0;
-}
-.zxc1 {
-    margin-bottom: 0;
-}
